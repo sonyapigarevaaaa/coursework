@@ -1,0 +1,51 @@
+﻿@using BlazorApp.Data.Models
+@using BlazorApp.Services
+@inject NavigationManager _navigationManager
+
+
+
+   
+<div class="container">
+    <hr>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        @if (products != null)
+        {
+            @foreach (var product in products)
+            {
+
+                 <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="../img/@product.SrcPicture">
+                            <div @onclick="()=>toItem(product)" class="card-body">
+                                <p class="card-text">@product.Fullname</p>
+                                <div @onclick="()=>toItem(product)" class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary" @onclick="()=>toItem(product)">View</button>
+                                    </div>
+                                    <small class="text-muted">2022</small>
+                                </div>
+                            </div>
+                        </div>
+                 </div>
+            }
+        }
+    </div>
+</div>
+     
+
+
+@code{
+    private List<Product>? products;
+    [Inject]
+    private IProductProvider productProvider { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        products = await productProvider.GetAll();
+
+    }
+    public void toItem(Product product)
+    {
+        _navigationManager.NavigateTo($"/products/{product.ProductId}");
+    }
+}

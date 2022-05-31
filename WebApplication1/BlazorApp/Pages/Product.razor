@@ -1,0 +1,57 @@
+﻿@page "/products/{ProductId}"
+@using BlazorApp.Data.Models
+@using BlazorApp.Services
+@inject NavigationManager _navigationManager
+
+@if (CurrentProduct != null)
+{
+
+    <div class="container-sm">    
+        <hr>
+        <section>
+            <div class="row">
+                <div class="col">
+                    <img class ="w-100" src="../img/@CurrentProduct.SrcPicture">
+                </div>
+                <div class="col">
+                    <h1><center>@CurrentProduct.Fullname</center></h1>
+                    <center><b>Описание товара</b></center>
+                    <ul>
+                        <li>@CurrentProduct.Description</li>
+                    </ul>
+                    <br><b><center>Цена<br>@CurrentProduct.Price</center></b>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <div class="container">    
+        <hr>
+        <br><b><center>Информация о наличии</center></b>
+        <ul>
+            <li>
+                Осталось - @CurrentProduct.Quantity
+            </li>
+            <li>
+                В наличии - @CurrentProduct.Store
+            </li>
+        </ul>
+
+    </div>
+}
+
+@code {
+    [Parameter]
+    public string ProductId { get; set; } = null!;
+    public List<Data.Models.Product> Products { get; set; }
+
+    public Data.Models.Product? CurrentProduct { get; set; }
+    [Inject]
+    private IProductProvider productProvider { get; set; } = null!;
+
+    protected async override Task OnInitializedAsync()
+    {
+        CurrentProduct = await productProvider.GetOne(Int32.Parse(ProductId));
+    }
+}

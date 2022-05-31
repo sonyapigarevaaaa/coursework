@@ -1,0 +1,87 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = browser
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = true
+build_property.IncludeAllContentForSelfExtract = 
+build_property.RootNamespace = BlazorApp
+build_property.RootNamespace = BlazorApp
+build_property.ProjectDir = C:\Users\Sofiya\Desktop\учеба\rksp\WebApplication1\BlazorApp\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Sofiya\Desktop\учеба\rksp\WebApplication1\BlazorApp
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Sofiya/Desktop/учеба/rksp/WebApplication1/BlazorApp/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sofiya/Desktop/учеба/rksp/WebApplication1/BlazorApp/Pages/Customer.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sofiya/Desktop/учеба/rksp/WebApplication1/BlazorApp/Pages/Delivery.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVsaXZlcnkucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sofiya/Desktop/учеба/rksp/WebApplication1/BlazorApp/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sofiya/Desktop/учеба/rksp/WebApplication1/BlazorApp/Pages/Main.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFpbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sofiya/Desktop/учеба/rksp/WebApplication1/BlazorApp/Pages/Products.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sofiya/Desktop/учеба/rksp/WebApplication1/BlazorApp/Pages/Shipment.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hpcG1lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sofiya/Desktop/учеба/rksp/WebApplication1/BlazorApp/Shared/MainFooter.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5Gb290ZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sofiya/Desktop/учеба/rksp/WebApplication1/BlazorApp/Shared/MainHeader.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5IZWFkZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sofiya/Desktop/учеба/rksp/WebApplication1/BlazorApp/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sofiya/Desktop/учеба/rksp/WebApplication1/BlazorApp/Components/CustomerList/CustomerList.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDdXN0b21lckxpc3RcQ3VzdG9tZXJMaXN0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-xua94652oi
+
+[C:/Users/Sofiya/Desktop/учеба/rksp/WebApplication1/BlazorApp/Components/DeliveryList/DeliveryList.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xEZWxpdmVyeUxpc3RcRGVsaXZlcnlMaXN0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-89y9yo8x8g
+
+[C:/Users/Sofiya/Desktop/учеба/rksp/WebApplication1/BlazorApp/Components/ProductList/ProductList.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQcm9kdWN0TGlzdFxQcm9kdWN0TGlzdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-g17qqbn7cg
+
+[C:/Users/Sofiya/Desktop/учеба/rksp/WebApplication1/BlazorApp/Components/ShipmentList/ShipmentList.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTaGlwbWVudExpc3RcU2hpcG1lbnRMaXN0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-k6irga8zfl
+
+[C:/Users/Sofiya/Desktop/учеба/rksp/WebApplication1/BlazorApp/Pages/Product.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-ctbb2n8n6n
+
+[C:/Users/Sofiya/Desktop/учеба/rksp/WebApplication1/BlazorApp/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-3dsd3z3yec
+
+[C:/Users/Sofiya/Desktop/учеба/rksp/WebApplication1/BlazorApp/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-7cxxmz0cwl

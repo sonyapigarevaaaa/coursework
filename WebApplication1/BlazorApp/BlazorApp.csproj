@@ -1,0 +1,53 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\img\1.jpg" />
+    <Content Remove="wwwroot\img\2.jpg" />
+    <Content Remove="wwwroot\img\3.jpg" />
+    <Content Remove="wwwroot\img\4.jpg" />
+    <Content Remove="wwwroot\img\5.jpg" />
+    <Content Remove="wwwroot\img\6.jpg" />
+    <Content Remove="wwwroot\img\7.jpg" />
+    <Content Remove="wwwroot\img\8.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Components\CustomerList\CustomerList.razor.css" />
+    <None Remove="Components\DeliveryList\DeliveryList.razor.css" />
+    <None Remove="Components\ProductList\ProductList.razor.css" />
+    <None Remove="Components\ShipmentList\ShipmentList.razor.css" />
+    <None Remove="Pages\Product.razor.css" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Components\CustomerList\CustomerList.razor.css" />
+    <Content Include="Components\DeliveryList\DeliveryList.razor.css" />
+    <Content Include="Components\ProductList\ProductList.razor.css" />
+    <Content Include="Components\ShipmentList\ShipmentList.razor.css" />
+    <Content Include="Pages\Product.razor.css" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\img\1.jpg" />
+    <None Include="wwwroot\img\2.jpg" />
+    <None Include="wwwroot\img\3.jpg" />
+    <None Include="wwwroot\img\4.jpg" />
+    <None Include="wwwroot\img\5.jpg" />
+    <None Include="wwwroot\img\6.jpg" />
+    <None Include="wwwroot\img\7.jpg" />
+    <None Include="wwwroot\img\8.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="6.0.4" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="6.0.4" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+</Project>

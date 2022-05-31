@@ -1,0 +1,45 @@
+﻿@using BlazorApp.Data.Models
+@using BlazorApp.Services
+@inject NavigationManager _navigationManager
+
+  <div class="container-sm">
+  <hr>
+<h1><center><small>Список поставок:</small></center></h1>
+
+   <div class="table-responsive">
+         <table class="table table-striped">
+    <thead>
+    <tr>
+        <th>ID поставки</th>
+        <th>Дата</th>
+        <th>Время</th>
+        <th>ID товара</th>
+    </tr>
+    </thead>
+    <tbody>
+    @if (deliveries != null)
+    {
+       @foreach (var delivery in deliveries)
+        {
+            <tr>
+                <td>@delivery.DeliveryId</td>
+                <td>@delivery.Date</td>
+                <td>@delivery.Time</td>
+                <td>@delivery.ProductId</td>
+            </tr>
+        }
+    }
+    </tbody>
+</table>
+</div>
+</div>
+
+@code{
+    private List<Delivery>? deliveries;
+    [Inject]
+    private IDeliveryProvider deliveryProvider { get; set; }
+    protected override async Task OnInitializedAsync()
+    {
+        deliveries = await deliveryProvider.GetAll();
+    }
+}
